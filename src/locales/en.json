@@ -1,0 +1,34 @@
+[
+    {
+        "id": "languages.en",
+        "message": "English"
+    },
+    {
+        "id": "languages.he",
+        "message": "Hebrew"
+    },
+    {
+        "id": "calendar.addTask",
+        "message": "New task"
+    },
+    {
+        "id": "dates.month",
+        "message": "Month"
+    },
+    {
+        "id": "dates.week",
+        "message": "Week"
+    },
+    {
+        "id": "dates.day",
+        "message": "Day"
+    },
+    {
+        "id": "tooltips.previousMonth",
+        "message": "Previous month"
+    },
+    {
+        "id": "tooltips.nextMonth",
+        "message": "Next month"
+    }
+]

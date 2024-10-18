@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans Hebrew", sans-serif;
+    direction: rtl;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    line-height: 1;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+@keyframes tooltipGrow {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.tooltip {
+    animation: tooltipGrow .1s ease forwards; 
+
+    position: 'absolute';
+    background-color: '#333';
+    color: '#fff';
+    padding-block: '5px';
+    padding-inline: '8px';
+    border-radius: '6px';
+    z-index: '1000';
+    pointer-events: 'none';
+    font-size: '12px'
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "languages.en",
+        "message": "אנגלית"
+    },
+    {
+        "id": "languages.he",
+        "message": "עברית"
+    },
+    {
+        "id": "calendar.addTask",
+        "message": "משימה חדשה"
+    },
+    {
+        "id": "dates.month",
+        "message": "חודש"
+    },
+    {
+        "id": "dates.week",
+        "message": "שבוע"
+    },
+    {
+        "id": "dates.day",
+        "message": "יום"
+    },
+    {
+        "id": "tooltips.previousMonth",
+        "message": "החודש הקודם"
+    },
+    {
+        "id": "tooltips.nextMonth",
+        "message": "החודש הבא"
+    }
+]
