@@ -1,5 +1,6 @@
 {
   "name": "react-ts-starter",
+  "homepage": "https://refarefa1.github.io/eclipso",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,7 +29,9 @@
     "start": "nodemon node_modules/react-scripts/scripts/start.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "@types/i18next": "^13.0.0"
+    "@types/i18next": "^13.0.0",
+    "gh-pages": "^6.2.0"
   }
 }
