@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eclipso/static/css/main.2c9e3ce3.css",
+    "main.js": "/eclipso/static/js/main.c7e024d2.js",
+    "index.html": "/eclipso/index.html",
+    "main.2c9e3ce3.css.map": "/eclipso/static/css/main.2c9e3ce3.css.map",
+    "main.c7e024d2.js.map": "/eclipso/static/js/main.c7e024d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c9e3ce3.css",
+    "static/js/main.c7e024d2.js"
+  ]
+}
